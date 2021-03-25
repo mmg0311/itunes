@@ -7,7 +7,6 @@
   border: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  transition: all 0.2s;
 }
 body {
   background-color: whitesmoke;
@@ -62,7 +61,17 @@ body {
 }
 main {
   width: 80%;
+  justify-content: center;
+  align-items: center;
   margin: 40px auto;
+  min-height: 80vh;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .home__container .songs {
@@ -76,7 +85,7 @@ main {
   margin: 30px 0;
 }
 .songs .card {
-  box-shadow: -10px 10px 10px 20px rgba(0, 0, 0, 0.09);
+  box-shadow: -10px 10px 10px 6px rgba(1, 0, 0, 0.04);
   padding: 20px;
   background-color: #fff;
   display: flex;
@@ -109,7 +118,9 @@ main {
   width: 100%;
   outline: none;
 }
-
+.player {
+  padding: 10px 0px;
+}
 @media (max-width: 500px) {
   .container .navbar .logo {
     padding: 20px 0 0 0;

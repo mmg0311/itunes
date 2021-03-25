@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import logo from "../logo.svg";
 import { fetchSongs } from "../features/music/musicSlice";
+
 function Navbar() {
   const [term, setTerm] = useState("");
   const dispatch = useDispatch();
   const handleSearch = (e) => {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && term) {
       dispatch(fetchSongs(term));
     }
   };

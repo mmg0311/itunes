@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { getAllSongs } from "../features/music/musicSlice";
-import { Row, Col, Divider } from "antd";
+
 function Home() {
   const songs = useSelector(getAllSongs);
   return (

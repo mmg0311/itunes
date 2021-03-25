@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     if (fetchStatus === "idle") {
-      dispatch(fetchSongs("justin"));
+      dispatch(fetchSongs("pokemon"));
     }
   }, [fetchStatus, dispatch]);
 

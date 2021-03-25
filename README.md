@@ -3,10 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## ScreenShots
 Home page<br/>
-<img src="https://github.com/mmg0311/itunes/blob/master/src/assets/images/home.PNG" width=120> 
+<img src="https://github.com/mmg0311/itunes/blob/master/src/assets/images/home.PNG"> 
 <br/>
 After searching song<br/>
-<img src="https://github.com/mmg0311/itunes/blob/master/src/assets/images/search.PNG" width=120>
+<img src="https://github.com/mmg0311/itunes/blob/master/src/assets/images/search.PNG">
 
 
 ## Available Scripts

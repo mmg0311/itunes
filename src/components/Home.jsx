@@ -15,11 +15,7 @@ function Home() {
               </div>
               <div className="card-body">
                 <p className="song-name">{song.trackName}</p>
-                <a
-                  target="_blank"
-                  href={song.artistViewUrl}
-                  className="artist-name"
-                >
+                <a href={song.artistViewUrl} className="artist-name">
                   {song.artistName}
                 </a>
               </div>
